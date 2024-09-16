@@ -9,6 +9,39 @@
 
 .profile_image {
     border-radius: 50%;
-    width: 20vh;
-    height: 20vh;
+    width: 10vh;
+    height: 10vh;
+}
+
+.informations {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20%;
+
+    h1 {
+        color: var(--pallete_color_6);
+    }
+
+    p {
+        color: var(--pallete_color_5);
+    }
+}
+
+.skill_image {
+    height: 6vh;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.text_informations {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }

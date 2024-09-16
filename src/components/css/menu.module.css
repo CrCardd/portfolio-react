@@ -1,6 +1,5 @@
 .header_guides {
     font-size: 100%;
-    color: var(--pallete_color_3);
     position: relative;
 }
 
@@ -39,4 +38,9 @@ html {
     position: fixed;
     top: 0;
     background-color: transparent;
+}
+
+.text {
+    color: var(--pallete_color_3);
+    text-decoration: none;
 }

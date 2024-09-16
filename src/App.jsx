@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <Menu/>
+      <Menu about={'#apresentation'}/>
       <div className={style.resume}>
 
         <div className={style.resume_apresentation}>
@@ -22,8 +22,15 @@ function App() {
           </button>
       </div>
 
+      <div id='apresentation'>
+        <Apresentation/>
+      </div>
 
-      <Apresentation/>
+      <div id='show_projects'>
+
+      </div>
+
+
 
 
 

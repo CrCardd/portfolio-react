@@ -25,6 +25,7 @@
     p {
         display: flex;
         flex-wrap: wrap;
+        color: var(--pallete_color_5);
     }
 }
 

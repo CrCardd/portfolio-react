@@ -1,14 +1,17 @@
 // import { useState } from 'react'
 import style from './App.module.css'
+
+import arrow from './assets/seta.png'
+
 import Menu from './components/Menu.jsx'
 import Apresentation from './components/Apresentation.jsx'
-import arrow from './assets/seta.png'
+import Show_projects from './components/Show_projects.jsx'
 
 function App() {
 
   return (
     <>
-      <Menu about={'#apresentation'}/>
+      <Menu about={'#apresentation'} works={'#show_projects'}/>
       <div className={style.resume}>
 
         <div className={style.resume_apresentation}>
@@ -27,7 +30,7 @@ function App() {
       </div>
 
       <div id='show_projects'>
-
+        <Show_projects/>
       </div>
 
 

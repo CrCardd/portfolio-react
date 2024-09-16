@@ -1,5 +1,4 @@
 .header_guides {
-    margin: 3vh 10vh;
     font-size: 100%;
     color: var(--pallete_color_3);
     position: relative;
@@ -34,4 +33,10 @@ html {
 .menu {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    background-color: transparent;
 }

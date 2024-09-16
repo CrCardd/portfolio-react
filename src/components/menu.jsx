@@ -1,4 +1,4 @@
-import style from '../css/menu.module.css'
+import style from './css/menu.module.css'
 
 
 export default function menu({home,about,contact,works}){

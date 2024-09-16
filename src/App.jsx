@@ -1,11 +1,10 @@
-import { useState } from 'react'
-import menu from './components/menu'
+import Menu from './components/Menu.jsx'
 
 function App() {
 
   return (
     <>
-      <menu/>
+      <Menu/>
     </>
   )
 }

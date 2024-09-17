@@ -19,10 +19,10 @@
 
 .project_left, .project_right {
     margin-top: 5vh;
-    border: 10px solid var(--pallete_color_5);
+    border: 0.5vh solid var(--pallete_color_5);
 
 }
-
+    
 @media (width <= 1000px){
     .image {
         height: 30vh;

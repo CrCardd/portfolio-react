@@ -25,7 +25,8 @@ export default function apresentation(){
 
                     <div className={style.text_informations}>
                         <h1>Cristian</h1>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, reprehenderit voluptatibus. Necessitatibus quibusdam, quisquam nemo quam aliquid tempore, eaque cumque aspernatur beatae facilis voluptas laudantium aut totam excepturi architecto ducimus.</p>
+                        <p>   I am in 3 year of high school and work in LTDA Robert Bosch as apprentice of Digital Talent Academy.</p>
+                        <h4>Here some of my skills:</h4>
 
                         <div className={style.skills}>
                             <img className={style.skill_image} src={java_image} alt="skill.png"/>

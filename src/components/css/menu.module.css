@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 .header_guides {
     font-size: 100%;
     position: relative;
@@ -43,4 +45,9 @@ html {
 .text {
     color: var(--pallete_color_3);
     text-decoration: none;
+    font-size: 22px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }

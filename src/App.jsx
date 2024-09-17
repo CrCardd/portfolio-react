@@ -1,11 +1,10 @@
-// import { useState } from 'react'
 import style from './App.module.css'
 
 import arrow from './assets/seta.png'
 
-import Menu from './components/Menu.jsx'
-import Apresentation from './components/Apresentation.jsx'
-import Show_projects from './components/Show_projects.jsx'
+import Menu from './components/menu.jsx'
+import Apresentation from './components/apresentation.jsx'
+import Show_projects from './components/show_projects.jsx'
 import Contact from './components/contact.jsx'
 
 function App() {
@@ -37,15 +36,6 @@ function App() {
       <div id='contact'>
         <Contact/>
       </div>
-
-      
-
-
-
-
-
-
-      
 
     </>
   )

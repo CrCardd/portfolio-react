@@ -13,7 +13,11 @@ export default function contact(){
 
     return(
         <>
-
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <hr className={style.line}/>
 
                 <div className={style.contact}>

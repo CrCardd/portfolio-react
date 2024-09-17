@@ -13,9 +13,10 @@
     position: fixed;
     z-index: -2;
     width: 100vw;
-    height: 100vh;
+    height: auto;
 }
 
 body {
     overflow-x: hidden;
+    /* overflow-y: hidden; */
 }

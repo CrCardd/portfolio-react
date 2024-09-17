@@ -11,8 +11,8 @@ function App() {
 
   return (
     <>
-      <Menu about={'#apresentation'} works={'#show_projects'}/>
-      <div className={style.resume}>
+      <Menu home={'#resume'} about={'#apresentation'} works={'#show_projects'}/>
+      <div id='resume' className={style.resume}>
 
         <div className={style.resume_apresentation}>
           <h1>Soy Cristian</h1>
@@ -32,6 +32,8 @@ function App() {
       <div id='show_projects'>
         <Show_projects/>
       </div>
+
+      
 
 
 

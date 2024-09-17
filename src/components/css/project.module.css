@@ -2,7 +2,6 @@
     height: 50vh;
     width: auto;
 
-    border-radius: 8px;
 }
 
 .button {
@@ -19,15 +18,30 @@
 }
 
 .project_left, .project_right {
-    margin: 10vh;
-    border: 10px solid var(--pallete_color_6);
-    border-radius: 20px;
+    margin-top: 5vh;
+    border: 10px solid var(--pallete_color_5);
 
 }
 
 @media (width <= 1000px){
     .image {
         height: 30vh;
+        width: auto;
+      
+    }
+}
+
+@media (width <= 600px){
+    .image {
+        height: 15vh;
+        width: auto;
+      
+    }
+}
+
+@media (width <= 360px){
+    .image {
+        height: 14vh;
         width: auto;
       
     }

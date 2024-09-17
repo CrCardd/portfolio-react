@@ -9,8 +9,8 @@
 
 .profile_image {
     border-radius: 50%;
-    width: 10vh;
-    height: 10vh;
+    width: 30vh;
+    height: 30vh;
 }
 
 .informations {
@@ -44,4 +44,32 @@
     display: flex;
     flex-direction: column;
     gap: 60px;
+}
+
+
+@media (width <= 650px){
+    .skill_image {
+        height: 4vh;
+        width: auto;
+      
+    }
+
+    .text_informations {
+        gap: 20px;
+        font-size: 10px;
+    }
+
+    .profile_image {
+        width: 15vh;
+        height: 15vh;
+    }
+
+}
+
+@media (width <= 350px){
+    .profile_image {
+        width: 10vh;
+        height: 10vh;
+    }
+
 }

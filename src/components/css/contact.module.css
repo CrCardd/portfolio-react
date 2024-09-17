@@ -1,0 +1,38 @@
+.image {
+    max-height: 9vh;
+    cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 16vh;
+
+    width: 100%;
+    background: var(--pallete_color_5);
+    background: linear-gradient(0deg, var(--pallete_color_2) 0%, var(--pallete_color_5) 92%);
+}
+
+.line {
+    border: 3px solid var(--pallete_color_4);
+    opacity: 0.5;
+}
+
+@media (width < 800px){
+    .image {
+        max-height: 7vh;
+    } 
+    .contact {
+        height: 12vh;
+    }
+}
+
+@media (width < 400px){
+    .image {
+        max-height: 5vh;
+    } 
+    .contact {
+        height: 9vh;
+    }
+}

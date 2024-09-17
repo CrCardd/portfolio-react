@@ -6,6 +6,7 @@ import arrow from './assets/seta.png'
 import Menu from './components/Menu.jsx'
 import Apresentation from './components/Apresentation.jsx'
 import Show_projects from './components/Show_projects.jsx'
+import Contact from './components/contact.jsx'
 
 function App() {
 
@@ -31,6 +32,10 @@ function App() {
 
       <div id='show_projects'>
         <Show_projects/>
+      </div>
+
+      <div id='contact'>
+        <Contact/>
       </div>
 
       

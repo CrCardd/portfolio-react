@@ -1,7 +1,6 @@
 import style from './App.module.css'
 
-import arrow from './assets/seta.png'
-
+import Resume from './components/resume.jsx'
 import Menu from './components/menu.jsx'
 import Apresentation from './components/apresentation.jsx'
 import Show_projects from './components/show_projects.jsx'
@@ -13,16 +12,7 @@ function App() {
     <>
       <Menu home={'#resume'} about={'#apresentation'} works={'#show_projects'}/>
       <div id='resume' className={style.resume}>
-
-        <div className={style.resume_apresentation}>
-          <h1>Soy Cristian</h1>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis ducimus recusandae aliquam omnis a cum ex at repellendus</p>
-
-        </div>
-
-          <button className={style.button_arrow}>
-            <img className={style.img_arrow} src={arrow} alt="seta.png" />
-          </button>
+        <Resume/>
       </div>
 
       <div id='apresentation'>
